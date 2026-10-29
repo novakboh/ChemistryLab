@@ -1,0 +1,110 @@
+.element-card {
+  width: 230px;
+  height: 350px;
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.element-card-top {
+  flex: 1;
+  min-height: 0;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.element-card-number {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.element-card-symbol {
+  margin: 10px 0 0;
+  color: #111111;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.element-card-name {
+  margin: 12px 0 0;
+  color: #111111;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.element-card-mass {
+  margin: 3px 0 0;
+  color: #111111;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.element-card-category {
+  margin-top: 14px;
+  padding: 5px 12px;
+
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.element-card-bottom {
+  height: 100px;
+  flex-shrink: 0;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  border-radius: 9px 9px 0 0;
+  box-sizing: border-box;
+}
+
+.element-card-bottom button {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 7px;
+
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.element-card-details {
+  color: #4093fc;
+  border-color: #4093fc;
+}
+
+.element-card-favorite {
+  color: #1652bb;
+  border-color: #1652bb;
+}
+
+.element-card-favorite img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
